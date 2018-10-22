@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  instaUrl: 'https://api.instagram.com/oauth/authorize/',
+  clientId: 'cb2cc85b3db54f38af56d0e9b52ef3b0',
+  responseType: 'response_type',
+  redirectUri: 'http://localhost:4201/login'
 };
 
 /*

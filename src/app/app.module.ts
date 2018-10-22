@@ -13,6 +13,7 @@ import { MenuComponent } from './menu/menu.component';
 import {RouterModule} from '@angular/router';
 import {AppRoute} from './app.route';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     RightbarComponent,
     ContentComponent,
     MenuComponent,
-    SidebarComponent
+    SidebarComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
